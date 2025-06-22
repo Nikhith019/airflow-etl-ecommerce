@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment files
+.env
+*.env
+
+# Virtual environment folders
+venv/
+env/
+airflow_env/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# Logs
+*.log
+logs/
+airflow_logs/
+
+# SQLite database (if used by Airflow)
+airflow.db
+*.db
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files (optional - if you don't want to track raw data)
+data/
+rawsales.csv
+
+# IDE/editor config files
+.vscode/
+.idea/
+*.swp
+
